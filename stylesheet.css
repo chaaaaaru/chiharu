@@ -1,0 +1,233 @@
+* {
+  /* font-family: 'Varela Round', sans-serif; */
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  color: #615c5c;
+}
+
+/* TOPのCSS */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.main {
+  background-color: #741d20cc;
+  height: 100vh;
+  padding: 0 10% 0;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: #dccdac;
+    border-radius: 150px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 75px;
+    left: 40px;
+}
+
+.title h1 {
+  color: #741d20cc;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.menu a {
+  color: #dccdac;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: #dccdac;
+}
+
+.menu {
+  font-size: 20px;
+  text-align: right;
+  padding-top: 74px;
+}
+
+
+
+
+.pagemenu li {
+  display: inline;
+  margin-right: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.pagemenu a {
+  color: #741d20cc;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.pagemenu a:hover {
+  text-decoration: none;
+  color: #741d20cc;
+}
+
+.pagemenu {
+  font-size: 20px;
+  text-align: right;
+}
+/* わたしについてのCSS */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+  background-color: #dccdac;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.header-logo:hover {
+  opacity: 0.8;
+  transition: 0.4s all;
+}
+
+.header-logo-title {
+  position: absolute;
+  font-size: 12px;
+  top: 20px;
+  left: 15px;
+  color: #741d20cc;
+  font-weight: normal;
+}
+
+
+.chiharu {
+  display: flex;
+}
+
+.about-me{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.introduction {
+  justify-content: flex-start;
+  align-items: start;
+  font-size: 14px;
+}
+
+.head-title {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0 0 50px;
+}
+
+.head-title h1 {
+  border-bottom: solid 5px #dccdac;
+  display: inline-block;
+  color: #741d20cc;
+}
+
+.head-title span {
+  font-size: 60px;
+}
+
+.my-picture {
+  margin-right: 55px;
+}
+
+.my-picture img {
+  height: 300px;
+  width: 300px;
+}
+
+.content-sentens p {
+  line-height: 2;
+  font-size: 14px;
+}
+
+.content-sentens {
+  margin-bottom: 50px;
+}
+
+.content-sentens span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #741d20cc;
+}
+
+.job {
+  margin-bottom: 50px;
+}
+
+.job th{
+  width: 130px;
+  height: 35px;
+  padding: 0 10px;
+}
+
+.job td {
+  padding: 0 10px;
+}
+
+
+/* 好きなことのCSS */
+
+.favorite-contents {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.favorite-picture {
+  margin-right: 50px;
+}
+
+.favorite-contents img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.favorite-picture-right {
+  margin-left: 50px;
+}
+
+.contents-title span {
+  color: #741d20cc;
+}
+
+
+/* to everyoneのCSS */
+.contents .coment{
+  font-size: 14px;
+}
+
+.contents {
+  margin-bottom: 50px;
+}
+
+.coment span {
+  color: #741d20cc;
+}
