@@ -42,54 +42,45 @@ body {
 }
 
 .menu li {
-  display: inline;
   margin-right: 30px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
-.menu a {
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.mainlist a {
   color: #dccdac;
   text-decoration: underline;
   font-size: 15px;
 }
 
-.menu a:hover {
+.mainlist a:hover {
   text-decoration: none;
   color: #dccdac;
 }
 
 .menu {
-  font-size: 20px;
   text-align: right;
-  padding-top: 74px;
+  padding-top: 80px;
 }
 
-
-
-
-.pagemenu li {
-  display: inline;
-  margin-right: 30px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.pagemenu a {
+.sublist a {
   color: #741d20cc;
   text-decoration: underline;
   font-size: 15px;
 }
 
-.pagemenu a:hover {
+.sublist a:hover {
   text-decoration: none;
   color: #741d20cc;
 }
 
-.pagemenu {
-  font-size: 20px;
-  text-align: right;
-}
+
 /* わたしについてのCSS */
 header {
   display: flex;
@@ -120,7 +111,6 @@ header {
   color: #741d20cc;
   font-weight: normal;
 }
-
 
 .chiharu {
   display: flex;
