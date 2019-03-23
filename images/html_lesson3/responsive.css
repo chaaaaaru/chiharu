@@ -1,0 +1,6 @@
+/* タブレット向けレイアウト */
+@media(max-width: 500px) {
+  .main {
+    padding: 0;
+  }
+}
