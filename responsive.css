@@ -1,6 +1,113 @@
 /* タブレット向けレイアウト */
 @media(max-width: 500px) {
   .main {
-    padding: 0;
+    padding: 0 15px;
+    width: 100%;
   }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+
+  .title {
+    top: 45px;
+    left: 30px;
+  }
+
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .menu {
+    padding-top: 30px;
+  }
+
+  .mainlist a {
+    font-size: 10px;
+  }
+
+  .sublist a {
+    font-size: 10px;
+  }
+
+  .header-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
+
+  .header-logo-title {
+    font-size: 10px;
+    top: 14px;
+    left: 11px;
+  }
+
+  .menu li {
+    margin-left: 15px;
+  }
+
+  .about-me {
+    padding: 0 15px;
+    width: 100%
+  }
+
+  header {
+    margin-bottom: 0;
+  }
+
+  .head-title {
+    text-align: center;
+    padding: 0 0 10px;
+  }
+
+  .head-title h1 {
+    font-size: 20px;
+  }
+
+  .head-title span {
+    font-size: 40px;
+  }
+
+  .my-picture img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .my-picture {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .chiharu {
+    flex-direction: column;
+  }
+
+  .job tr {
+    display: block;
+  }
+
+  .job th {
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: auto;
+  }
+
+  .job td {
+    display: block;
+    width: 100%;
+    padding: 0 0 10px 0;
+  }
+
+  .job {
+    margin-bottom: 30px;
+  }
+
+  .pc {
+    display: none;
+  }
+
 }
